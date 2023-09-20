@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-   &none             &none             &none         &none               &none   &none               &none                                                                    &none   &none              &none          &none              &none     &none   &none
- &kp TAB             &kp Q             &kp W         &kp E  &mt LEFT_CONTROL R   &kp T               &none                                                                    &none   &kp Y              &kp U          &kp I              &kp O     &kp P   &none
- &kp ESC  &mt LEFT_SHIFT A           &lt 3 S       &lt 2 D             &lt 1 F   &kp G               &none  &kp CAPSLOCK  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H              &kp J          &kp K              &kp L  &kp SEMI   &none
-   &none             &kp Z             &kp X         &kp C               &kp V   &kp B                                    &kp HOME                  &kp PG_UP                         &kp N              &kp M      &kp COMMA            &kp DOT  &kp FSLH   &none
-   &none             &none  &kp LEFT_CONTROL  &kp LEFT_ALT    &kp LEFT_COMMAND                    &kp BSPC       &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_COMMAND     &none   &none
+   &none             &none             &none                   &none               &none   &none               &none                                                                    &none   &none              &none          &none              &none     &none   &none
+ &kp TAB             &kp Q             &kp W  &mt LC(LS(LA(LGUI))) E  &mt LEFT_CONTROL R   &kp T               &none                                                                    &none   &kp Y              &kp U          &kp I              &kp O     &kp P   &none
+ &kp ESC  &mt LEFT_SHIFT A           &lt 3 S                 &lt 2 D             &lt 1 F   &kp G               &none  &kp CAPSLOCK  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H              &kp J          &kp K              &kp L  &kp SEMI   &none
+   &none             &kp Z             &kp X                   &kp C               &kp V   &kp B                                    &kp HOME                  &kp PG_UP                         &kp N              &kp M      &kp COMMA            &kp DOT  &kp FSLH   &none
+   &none             &none  &kp LEFT_CONTROL            &kp LEFT_ALT    &kp LEFT_COMMAND                    &kp BSPC       &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_COMMAND     &none   &none
             >;
         };
 

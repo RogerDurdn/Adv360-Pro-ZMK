@@ -15,7 +15,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &mt {
-    tapping-term-ms = <220>;
+    tapping-term-ms = <190>;
     flavor = "balanced";
 };
 

@@ -15,7 +15,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &mt {
-    tapping-term-ms = <190>;
+    tapping-term-ms = <175>;
     flavor = "balanced";
 };
 
@@ -53,11 +53,11 @@
 
         default_layer {
             bindings = <
-&none  &none             &none             &none                   &none                 &none  &none                                                       &mo 5      &none  &none        &none          &none              &none                      &none
-&none  &kp Q             &kp W             &mt LC(LS(LA(LGUI))) E  &mt LEFT_CONTROL R    &kp T  &none                                                       &none      &kp Y  &mt LCTRL U  &kp I          &kp O              &kp P                      &none
-&none  &mt LEFT_SHIFT A  &lt 2 S           &lt 3 D                 &lt 1 F               &kp G  &none     &kp CAPSLOCK  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H  &kp J        &kp K          &kp L              &mt RIGHT_SHIFT SEMICOLON  &none
-&none  &kp Z             &kp X             &kp C                   &kp V                 &kp B                          &kp HOME      &kp PG_UP                        &kp N  &kp M        &kp COMMA      &kp DOT            &kp FSLH                   &none
-&none  &none             &kp LEFT_CONTROL  &mt LEFT_ALT TAB        &mt LEFT_COMMAND ESC         &kp BSPC  &kp DEL       &kp END       &kp PG_DN  &none      &kp ENTER         &kp SPACE    &kp RIGHT_ALT  &kp RIGHT_COMMAND  &none                      &none
+&none  &none             &none    &none                   &none                 &none  &none                                                       &mo 5      &none  &none        &none      &none              &none                      &none
+&none  &kp Q             &kp W    &mt LC(LS(LA(LGUI))) E  &mt LEFT_CONTROL R    &kp T  &none                                                       &none      &kp Y  &mt LCTRL U  &kp I      &kp O              &kp P                      &none
+&none  &mt LEFT_SHIFT A  &lt 2 S  &lt 3 D                 &lt 1 F               &kp G  &none     &kp CAPSLOCK  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H  &kp J        &kp K      &kp L              &mt RIGHT_SHIFT SEMICOLON  &none
+&none  &kp Z             &kp X    &kp C                   &kp V                 &kp B                          &kp HOME      &kp PG_UP                        &kp N  &kp M        &kp COMMA  &kp DOT            &kp FSLH                   &none
+&none  &none             &none    &mt LEFT_ALT TAB        &mt LEFT_COMMAND ESC         &kp BSPC  &none         &kp END       &kp PG_DN  &none      &kp SPACE         &kp ENTER    &none      &kp RIGHT_COMMAND  &none                      &none
             >;
         };
 
